@@ -97,6 +97,27 @@
     position: relative;
 }
 
+
+.ri-play-fill:before{
+    content: "";
+    position: relative;
+    /* width: 150%; */
+    /* height: 150%; */
+    opacity: 1;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .75);
+    /* top: -30%; */
+    /* left: -30%; */
+    background: rgba(198, 16, 0, 0);
+
+
+    animation-delay: 0s;
+    animation: pulsate1 1.5s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    
+}
 .app-text p{ 
     font-size: 20px;
     width: 650px;
