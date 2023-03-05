@@ -46,6 +46,16 @@
     
 }
 
+/* Button Gradient Property */
+.btn-gradient-2 {
+    background: linear-gradient(#42455a, #42455a) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+
+    transition: ease-in-out.3s;
+}
+
 .signup-btn span{
     display: block;
     padding: 8px 22px;
