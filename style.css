@@ -30,6 +30,39 @@
     color: #fff;
 }
 
+.learn-btn {
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #19dafa;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    transition: ease-in-out .3s;
+}
+
+.learn-btn:hover {
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right,#ff53e895,#19d7f887);
+    border-top-right-radius: 150px;
+    padding-right: 60px;
+}
+
+.quick-links ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align-last: center;
+    
+}
+
 .active{
     color: #fff !important;
     text-decoration: 3px underline #fff;
