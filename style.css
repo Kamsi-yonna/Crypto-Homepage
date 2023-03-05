@@ -109,11 +109,24 @@
     float: right;
 }
 
+
 .app-picture img{
     width: 85%;
     margin-left: 40px;
-    margin-top: -50px;
+    margin-top: -90px;
+    
+    animation: move 1.5s linear infinite alternate-reverse;
 }
+
+ @keyframes move{ 
+    from {
+        margin-top: -90px;
+    }
+    to { 
+        margin-top: -50px;
+    }
+}
+
 
 .play-btn{
     display: inline-flex;
