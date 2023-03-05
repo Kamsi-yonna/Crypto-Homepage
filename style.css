@@ -29,7 +29,21 @@
     text-underline-offset: 5px;
     color: #fff;
 }
+.social-icons ul li:hover i{
+    background-color: #19d7f8;
+    color: #fff;
+    border: 2px solid #fff;
+} 
+.social-icons ul li i{
+    color: #999;
+    border: 2px solid #999;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
 
+    transition: ease-in-out .2s;
+    
+}
 .learn-btn {
     margin: auto 20px;
     cursor: pointer;
