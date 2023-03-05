@@ -7,30 +7,35 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #42455a;
+    background: #2f3352;
 }
 
-.menu ul{
+.nav-link ul{
     display: inline-flex;
     margin: 50px 50px 25px;
 }
 
-.menu ul li{
+.nav-link ul li{
     list-style: none;
     margin: 0 20px;
     color: #b2b1b1;
     cursor: pointer;
-}
 
-.logo img{
-    width: 40px;
-    margin-top: -18px ;
-    margin-right: 48px;
+    transition: ease-in-out .3s;
+}   
+
+.nav-link ul li:hover{
+    text-decoration: 3px underline #fff;
+    text-underline-offset: 5px;
+    color: #fff;
 }
 
 .active{
     color: #fff !important;
+    text-decoration: 3px underline #fff;
+    text-underline-offset: 5px;
 }
+
 
 .signup-btn{
     top: 40px;
