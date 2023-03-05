@@ -66,6 +66,12 @@
     cursor: pointer;
 }
 
+.btn-gradient-2:hover{
+    background: rgb(48, 194, 227);
+    border-radius: 50em;
+    border: 2px solid rgb(48, 194, 227);
+}
+
 .signup-btn span{
     display: block;
     padding: 8px 22px;
