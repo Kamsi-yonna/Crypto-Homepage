@@ -129,6 +129,41 @@
     width: 640px;
     position: relative;
 }
+.quick-links ul li {
+    list-style: none;
+    margin: 0px 50px;
+    cursor: pointer;
+    color: #fff;
+
+    transition:  ease-in-out .2s;
+}
+
+.quick-links ul li:hover{
+    color: #2f3352;
+}
+
+.quick-links ul li i{
+    font-size: 30px;
+}
+
+.quick-links ul li p{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.social-icons{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+    
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 .ri-play-fill:before{
