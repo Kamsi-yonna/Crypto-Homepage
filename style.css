@@ -56,6 +56,16 @@
     transition: ease-in-out.3s;
 }
 
+.btn-gradient-2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
 .signup-btn span{
     display: block;
     padding: 8px 22px;
