@@ -52,11 +52,6 @@
                 linear-gradient(to right, darkblue, darkorchid) border-box;
     border-radius: 50em;
     border: 2px solid transparent;
-
-    transition: ease-in-out.3s;
-}
-
-.btn-gradient-2{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +59,8 @@
     color: #fff;
     padding: 8px 25px;
     cursor: pointer;
+
+    transition: ease-in-out.3s;
 }
 
 .btn-gradient-2:hover{
